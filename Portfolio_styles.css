@@ -1,0 +1,216 @@
+.navbar{
+    background-color: black;
+}
+
+.nav-link{
+    margin: 10px;
+    margin-right: 15px;
+    font-size: 20px;
+}
+
+.title{
+    text-decoration: underline;
+    text-align: center;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
+#contentbox{
+    background-color: #0A1D37;
+    padding: 125px;
+    padding-bottom: 175px;
+}
+
+#maincontentbox{
+    background-color: #000000;
+    border: 2px #ECECEC solid;
+    padding: 50px;
+    box-shadow: 8px 8px 16px #ECECEC;
+    border-radius: 50px;
+}
+
+#contentbox h3{
+    color: #E6AF2E;
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 5px;
+}
+
+#contentbox h2{
+    color: #E6AF2E;
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 5px;
+}
+
+#contentbox h1{
+    color: #E6AF2E;
+    text-shadow: 4px 4px 8px #F5D061;
+    font-size: 75px;
+    font-weight: bold;
+    margin: 5px;
+}
+
+#maintext{
+    color: #E6AF2E;
+    font-size: 25px;
+    
+}
+
+#abt{
+    background-color: #ECECEC;
+    text-align: center;
+    padding: 100px;
+    padding-top:25px;
+    padding-left: 50px; 
+}
+
+#img{
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+    vertical-align: middle;
+}
+
+#abtme_content{
+    font-size: 25px;
+    text-align: left;
+    margin: 25px;
+}
+
+#work_box{
+    text-align: center;
+    background-color: #F5D061;
+    padding: 50px;
+}
+
+.work_con{
+    border:1px black solid;
+    border-radius: 25px;
+    box-shadow: 2px 4px 4px black;
+}
+
+.work_info{
+    font-size: 25px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+#rd_more{
+    width: 25%;
+    background-color: #0A1D37;
+    border: none;
+    box-shadow: 4px 4px 8px black;
+    margin-bottom: 20px;
+}
+
+.work_head{
+    margin-top: 30px;
+}
+
+#achieve_box{
+    text-align: center;
+    list-style-position: inside;
+    background-color: #ECECEC;
+    padding: 50px;
+}
+
+#achieve_list{
+    font-size: 25px;
+    margin-top: 40px;
+    padding: 25px;
+}
+
+#contact{
+    background-color: #F5D061;
+    padding: 50px;
+}
+
+#con_content{
+    text-align: center;
+}
+
+.fa{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    text-align: center;
+    padding: 10px;
+    font-size: 30px;
+    margin: 5px;
+    box-shadow: 4px 4px 8px black;
+    text-decoration: none;
+}
+
+.fa:hover{
+    color: white;
+    opacity: 0.7;
+}
+
+.fa-github{
+    background-color: black;
+    color: white;
+}
+
+.fa-twitter{
+    background-color: #55ACEE;
+    color: white;
+}
+
+.fa-linkedin{
+    background-color: #007bb5;
+    color: white;
+}
+
+.fa-instagram{
+    background-color: #f40083;
+    color: white;
+}
+
+.in_line{
+    display: inline;
+}
+
+.to_left{
+    float: left;
+    margin: 15px;
+}
+
+#footer{
+    background-color: black;
+    text-align: center;
+    color: white;
+}
+
+@media(min-width:1024px){
+    .workbox{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .work_con{
+        flex-basis: 33%;
+        border:1px black solid;
+        border-radius: 25px;
+        box-shadow: 2px 4px 4px black;
+    }
+
+    .brdr{
+        border-right: 1px black solid;
+    }
+}
+
+@media(min-width:986px){
+    .main_content_out, .abt_out{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .main_contents, .abt_con{
+        flex-basis: 50%;
+    }
+}
+
+@media(max-width:687px){
+    body{
+        width: fit-content;
+    }
+}
