@@ -213,6 +213,36 @@
 }
 
 @media(max-width:768px){
+    #contentbox h1{
+        font-size: 10vh; 
+    }
+    #contentbox h2{
+        font-size: 3vh; 
+    }
+    #contentbox h3{
+        font-size: 7.5vh; 
+    }
+    #maintext{
+        font-size: 3.5vh;
+    }
+}
+
+@media(max-width:576px){
+    #contentbox h1{
+        font-size: 8vh; 
+    }
+    #contentbox h2{
+        font-size: 2.5vh; 
+    }
+    #contentbox h3{
+        font-size: 6vh; 
+    }
+    #maintext{
+        font-size: 2.5vh;
+    }
+}
+
+@media(max-width:492px){
     body{
         width: fit-content;
     }
