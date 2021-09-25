@@ -26,20 +26,20 @@
     border: 2px #ECECEC solid;
     padding: 7.5vh;
     box-shadow: 4px 4px 8px #ECECEC;
-    border-radius: 50px;
+    border-radius: 10vh;
 }
 
 #contentbox h3{
     color: #E6AF2E;
     font-size: 7.5vh;
     font-family: 'Times New Roman', Times, serif;
-    margin-left: 5px;
+    margin-left: 1vh;
 }
 
 #contentbox h2{
     color: #E6AF2E;
     font-family: 'Times New Roman', Times, serif;
-    margin-left: 5px;
+    margin-left: 1vh;
 }
 
 #contentbox h1{
@@ -47,52 +47,54 @@
     text-shadow: 4px 4px 8px #F5D061;
     font-size: 15vh;
     font-weight: bold;
-    margin: 5px;
+    margin: 1vh;
 }
 
 #maintext{
     color: #E6AF2E;
-    font-size: 25px;
+    font-size: 4vh;
     
 }
 
 #abt{
     background-color: #ECECEC;
     text-align: center;
-    padding: 100px;
-    padding-top:25px;
-    padding-left: 50px; 
+    padding: 20vh;
+    padding-top: 5vh;
+    padding-left: 10vh; 
 }
 
 #img{
     border-radius: 50%;
-    width: 300px;
-    height: 300px;
+    width: 45vh;
+    height: 45vh;
     vertical-align: middle;
 }
 
 #abtme_content{
-    font-size: 25px;
+    font-size: 3.5vh;
     text-align: left;
-    margin: 25px;
+    margin: 4vh;
 }
 
 #work_box{
     text-align: center;
     background-color: #F5D061;
-    padding: 50px;
+    padding: 5vh;
 }
 
 .work_con{
     border:1px black solid;
-    border-radius: 25px;
+    border-radius: 5vh;
     box-shadow: 2px 4px 4px black;
 }
 
 .work_info{
-    font-size: 25px;
-    padding-top: 25px;
-    padding-bottom: 25px;
+    font-size: 3.5vh;
+    padding-top: 3.5vh;
+    padding-bottom: 3.5vh;
+    padding-left: 0.5vh;
+    padding-right: 0.5vh;
 }
 
 #rd_more{
@@ -100,24 +102,24 @@
     background-color: #0A1D37;
     border: none;
     box-shadow: 4px 4px 8px black;
-    margin-bottom: 20px;
+    margin-bottom: 3.5vh;
 }
 
 .work_head{
-    margin-top: 30px;
+    margin-top: 5vh;
 }
 
 #achieve_box{
     text-align: center;
     list-style-position: inside;
     background-color: #ECECEC;
-    padding: 50px;
+    padding: 7.5vh;
 }
 
 #achieve_list{
-    font-size: 25px;
-    margin-top: 40px;
-    padding: 25px;
+    font-size: 4vh;
+    margin-top: 7.5vh;
+    padding: 4vh;
 }
 
 #contact{
@@ -130,11 +132,11 @@
 }
 
 .fa{
-    width: 50px;
-    height: 50px;
+    width: 7.5vh;
+    height: 7.5vh;
     border-radius: 50%;
     text-align: center;
-    padding: 10px;
+    padding: 2vh;
     font-size: 30px;
     margin: 5px;
     box-shadow: 4px 4px 8px black;
